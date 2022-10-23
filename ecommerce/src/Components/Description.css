@@ -4,11 +4,11 @@
 }
 
 .description h3{
-    color: hsl(26, 100%, 55%);
+    color: hsl(27, 100%, 55%);
 }
 
 .description h1{
-    font-size: 3.5vw;
+    font-size: 3.5005vw;
 }
 
 .description--price{
@@ -26,7 +26,7 @@
 }
 
 .description--price div{
-    background-color: hsla(25, 92%, 46%, 0.4);
+    background-color: hsla(26, 92%, 46%, 0.4);
     padding: 0.5vw;
     border-radius: 0.3vw;
     color: hsl(25, 81%, 27%);

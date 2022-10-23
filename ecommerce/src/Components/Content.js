@@ -4,18 +4,18 @@ import Description from "./Description";
 import './Content.css'
 
 
-function Content(props){
+function Content(properties){
     return(
         <div className="content">
             <Picture 
-                currentPicture={props.currentPicture}
-                imageTHs={props.imageTHs}
-                changeCurrentPicture={props.changeCurrentPicture}
+                currentPicture={properties.currentPicture}
+                imageTHs={properties.imageTHs}
+                changeCurrentPicture={properties.changeCurrentPicture}
             />
             <Description
-                changeCounter={props.changeCounter}
-                count={props.count}
-                addToCart={props.addToCart}
+                changeCounter={properties.changeCounter}
+                count={properties.count}
+                addToCart={properties.addToCart}
             />
         </div>
     )
