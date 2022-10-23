@@ -1,0 +1,78 @@
+.description{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0 4vw;
+}
+
+.description h3{
+    color: hsl(26, 100%, 55%);
+}
+
+.description h1{
+    font-size: 3.5vw;
+}
+
+.description--price{
+    display: flex;
+    align-items: baseline;
+    font-weight: bold;
+    margin: 0;
+}
+
+.description--price p{
+    font-size: 3vw;
+    margin-right: 2vw;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.description--price div{
+    background-color: hsla(25, 92%, 46%, 0.4);
+    padding: 0.5vw;
+    border-radius: 0.3vw;
+    color: hsl(25, 81%, 27%);
+    font-weight: bold;
+    font-size: 1vw;
+    margin-bottom: 0;
+}
+
+.fade-text{
+    color: rgb(161, 161, 161);
+    text-decoration: line-through;
+    font-weight: bold;
+}
+
+.description--buttons{
+    display: flex;
+    margin: 2vw 0;
+}
+
+.description--count{
+    display: flex;
+    background-color:aliceblue;
+    justify-content:space-between;
+    width: 10vw;
+    padding: 1vw;
+    border-radius: 0.8vw;
+    margin-right: 1vw;
+    font-weight: bold;
+    align-items: center;
+}
+
+#plus, #minus {
+    font-size: 1.5vw;
+    color: hsl(26, 92%, 56%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 30%;
+    text-align: center;
+}
+
+.add-to-cart {
+    background: hsl(26, 92%, 56%);
+    color:white;
+    padding: 1vw 4vw;
+    border-radius: 1vw;
+}
+
+.pointer:hover {
+    cursor: pointer;
+}

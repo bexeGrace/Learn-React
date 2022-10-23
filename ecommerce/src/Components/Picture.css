@@ -1,0 +1,21 @@
+.picture{
+    margin: 2vw;
+}
+
+.picture img{
+    max-width: 40vw;
+    border-radius: 10px;
+}
+
+.picture--list img{
+    max-width: 8vw;
+    margin: 1vw;
+}
+
+.picture--image:hover{
+    opacity: 0.5;
+}
+
+.img {
+    opacity: 0.25;
+}
