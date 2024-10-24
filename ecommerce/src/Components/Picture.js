@@ -5,10 +5,12 @@ import './Picture.css'
 
 
 function Picture(props){
+    const [first, setfirst] = useState("")
     return(
         <div className="picture">
             <div className="picture--current">
                 <img src={props.currentPicture} alt="Selected Item"/>
+                <>{first}</>
             </div>
             <div className="picture--list">
                 <img onClick={props.changeCurrentPicture} className="picture--image img1" src={props.imageTHs[0]} alt="Show item 1" />
