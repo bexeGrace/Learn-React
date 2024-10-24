@@ -15,7 +15,7 @@ body{
     color: rgb(132, 116, 116);
     height: 5vw;
     padding-top: 2vw;
-    margin-bottom: 0;
+    margin-bottom: 0.00;
 }
 .nav--contents li{
     width: 6vw;
@@ -31,7 +31,7 @@ body{
 }
 
 .active{
-    border-bottom: 0.4vw solid hsl(26, 86%, 52%);
+    border-bottom: 0.400vw solid hsl(26, 86%, 52%);
     color: black;
     font-weight: bold;
 }

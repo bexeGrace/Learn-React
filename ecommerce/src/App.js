@@ -66,7 +66,7 @@ function App() {
           ...prevState,
           itemName:"Sneaker",
           itemNumber: num,
-          itemPrice: "$125.00"
+          itemPrice: "$125:00"
         })
       }else{
         return(prevState)
