@@ -91,7 +91,7 @@ function App() {
 </svg>
 
       </div>
-      <div className='button'>Checkout</div>
+      <div className='button'>Checkout Item</div>
     </div>
 
   const addToCartHandle = 
