@@ -8,8 +8,8 @@ function Description(pops){
     return(
         <div className="description">
             <h3>SNEAKER COMPANY</h3>
-            <h1>Fall Limited Edition Sneakers</h1>
-            <p>These low-profile sneakers are yout perfect casual wear companion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.</p>
+            <h1>Fall Limited Edition Sneakers!</h1>
+            <p>These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.</p>
             <div className="description--price pointer">
                 <p>$125:00</p>
                 <div>50%</div>

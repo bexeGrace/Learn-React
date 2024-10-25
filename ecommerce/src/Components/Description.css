@@ -21,7 +21,7 @@
 .description--price p{
     font-size: 3vw;
     margin-right: 2vw;
-    font-weight: 500;
+    font-weight: 500.0;
     margin-bottom: 0;
 }
 

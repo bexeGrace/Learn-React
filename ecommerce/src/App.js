@@ -104,7 +104,7 @@ function App() {
         </div>
       </div>
   
-  function cartClickHandle(){
+  function cartClickHandle(item = 1){
     setShowCart(prevState=>!prevState)
   }
 
