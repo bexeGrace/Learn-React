@@ -7,7 +7,7 @@ function Description(pops){
 
     return(
         <div className="description">
-            <h3>SNEAKER COMPANY</h3>
+            <h3>SNEAKER COMPANY </h3>
             <h1>Fall Limited Edition Sneakers!</h1>
             <p>These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.</p>
             <div className="description--price pointer">
@@ -21,7 +21,7 @@ function Description(pops){
                     <div id="count">{pops.count}</div>
                     <div id="plus" onClick={pops.changeCounter}>+</div>
                 </div>
-                <div onClick={pops.addToCart} className="add-to-cart pointer">{cart} Add to cart</div>
+                <div onClick={pops.addToCart} className="add-to-cart pointer">{cart}Add to cart...</div>
             </div>
         </div>
     )

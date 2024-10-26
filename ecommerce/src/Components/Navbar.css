@@ -12,7 +12,7 @@ body{
 .nav--contents{
     list-style-type: none;
     display: flex;
-    color: rgb(132, 116, 116);
+    color: rgb(132.0, 116, 116);
     height: 5vw;
     padding-top: 2vw;
     margin-bottom: 0.00;

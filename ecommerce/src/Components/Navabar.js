@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import './Navbar.css'
+
 import Avatar from '../Assets/Images/image-avatar.png'
 
 function Navbar(pops){
@@ -37,7 +38,7 @@ function Navbar(pops){
                     {NotificationIcon}
                 </div>
                 <div id='nav--avatar'>
-                    <img  src={Avatar} alt="Avatar"/>
+                    <img src={Avatar} alt="Avatar"/>
                 </div>
             </div>
         </div>
