@@ -4,7 +4,7 @@ import Description from "./Description";
 import './Content.css'
 
 
-function Content(properties){
+function Content(properties) {
     return(
         <div className="content">
             <Picture 
@@ -14,6 +14,7 @@ function Content(properties){
             />
             <Description
                 changeCounter={properties.changeCounter}
+                
                 count={properties.count}
                 addToCart={properties.addToCart}
             />

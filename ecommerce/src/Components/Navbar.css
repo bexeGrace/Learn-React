@@ -23,11 +23,13 @@ body{
 }
 .nav--contents li:hover{
     color: black;
+
     font-weight: bold;
 }
 
 .pointer:hover {
     cursor: pointer;
+    
 }
 
 .active{
