@@ -3,6 +3,8 @@ import Picture from "./Picture";
 import Description from "./Description";
 import './Content.css'
 
+// This is A component where the contests of the page are redered!
+
 
 function Content(properties) {
     return(
@@ -14,7 +16,7 @@ function Content(properties) {
             />
             <Description
                 changeCounter={properties.changeCounter}
-                
+
                 count={properties.count}
                 addToCart={properties.addToCart}
             />
