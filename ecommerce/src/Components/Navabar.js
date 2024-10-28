@@ -44,4 +44,5 @@ function Navbar(pops){
         </div>
     )
 }
+
 export default Navbar;

@@ -4,6 +4,7 @@ import Description from "./Description";
 import './Content.css'
 
 // This is A component where the contests of the page are redered!
+// This is A component where the contests of the page are redered!
 
 
 function Content(properties) {
